@@ -1,0 +1,93 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 1px;
+}
+
+.nav {
+    position: absolute;
+    right: 200px;
+
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+/* membuat minimal tinggi section */
+section {
+    min-height: 500px;
+}
+
+.portfolio {
+    background-color: #eee;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    background: #333;
+    color: #e3e3e3;
+
+    width: 100%;
+
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.jumbotron {
+    height: 600px;
+}
+
+/* animasi di portfolio */
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+    ;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee9;
+
+}
+
+.text1 {
+    color: ;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayleft {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.image:hover .overlayleft {
+    width: 100%;
+    ;
+}
